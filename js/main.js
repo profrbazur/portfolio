@@ -23,11 +23,11 @@ function updateThemeToggleUI() {
   if (isDark) {
     themeIcon.classList.remove('fa-moon');
     themeIcon.classList.add('fa-sun');
-    themeText && (themeText.textContent = 'Light');
+    if (themeText) themeText.textContent = 'Light';
   } else {
     themeIcon.classList.remove('fa-sun');
     themeIcon.classList.add('fa-moon');
-    themeText && (themeText.textContent = 'Dark');
+    if (themeText) themeText.textContent = 'Dark';
   }
 }
 

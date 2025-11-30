@@ -19,6 +19,12 @@ html {
   opacity: 0.7;
 }
 
+.hero-photo {
+  display: block;
+  width: 100%;
+  height: auto; /* keep original proportions */
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
